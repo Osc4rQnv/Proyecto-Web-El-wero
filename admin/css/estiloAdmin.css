@@ -1,0 +1,218 @@
+@charset "utf-8";
+/* 1. Fonts */ 
+/* url para la fuente de letra*/
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+/*======================================General=====================================*/
+
+body{
+    font-family: 'Staatliches', cursive; /*Tipo de letra, fuente*/
+	font-size: 14px;
+	line-height: 23px;
+	font-weight: 400;
+	background: linear-gradient(90deg, hsl(0, 88%, 67%) 0%, hsl(170, 29%, 84%) 100%);
+	color: #1e1e27;
+}
+
+main{
+    margin-top: 120px;
+}
+
+.text-center button{
+	margin: 50px;
+	font-size: 35px;
+	color: #fff;
+}
+
+h2{
+	font-size: 40px;
+	color: #000;
+	-webkit-font-smoothing:  antialiased;
+    text-shadow: rgba(0, 0, 0,.01) 0 0 1px;
+}
+
+/*======================================Botones cuando inicias como administrador(ventas, categorias, productos)=====================================*/
+#botones .as .boton{
+	background-color:  #fe4c50;
+	border-radius: 30%;
+	border: 2px solid #ff6568;
+	height:200px;
+    width:300px;
+}
+
+#botones .as .boton:hover{
+	background: #f67173;
+}
+
+#botones a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.btn{
+	background-color: #fe4c50;
+	border: 2px solid #ff6568;
+	border-radius: 12px;
+	font-size: 19px;
+	margin-top: 25px;
+}
+
+.btn:hover{
+	background: #ff8789;
+	border: 2px solid #ff8789;
+}
+
+
+/*======================================HEADER=====================================*/
+.trans_300{
+	transition: all 300ms ease;
+}
+
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #ffffff;
+	z-index: 10;
+}
+
+a, a:hover, a:active, a:link{
+	text-decoration: none;
+	-webkit-font-smoothing:  antialiased;
+    text-shadow: rgba(0, 0, 0,.01) 0 0 1px;
+}
+
+.main_nav_container{
+	width: 100%;
+	background: #ffffff;
+	/*box-shadow: 0 0 16px rgba(0, 0, 0, .015);*/
+	box-shadow: 0 0 16px rgb(5, 63, 92);
+}
+
+.navbar{
+	width: auto;
+	height: 100px;
+	float: right; /*direcciona el main navigator a la derecha*/
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar_menu li{
+	display: inline-block; /*agregar en lista los elementos*/
+}
+
+.navbar_menu li a{ /* Formato de los elementos navbar */
+	display: block;
+	color: #1e1e27;
+	font-size: 13px;
+	font-weight: 500;
+	text-transform: uppercase;
+	padding: 20px;
+	transition: color 0.3s ease; 
+}
+
+.navbar_menu li a:hover{
+	color: #b5aec4; /*Sombreado de las letras de navbar*/
+}
+
+.navbar_user{
+	margin-left: 37px;
+
+}
+
+.navbar_user li{
+	display: inline-block;
+	text-align: center;
+}
+
+.navbar_user li a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+	width: 48px;
+	height: 48px;
+	color: #1e1e27;
+	transition: color 0.3s ease;
+
+}
+
+.navbar_user li a:hover{
+	color: #b5aec4;
+}
+
+/*======================================LOGO=====================================*/
+
+.logo_container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+
+}
+
+.logo_container a{
+	font-size: 30px;
+	color: #1e1e27;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.logo_container a span{
+	color: #fe4c50;
+}
+
+/*======================================PIE DE PAGINA=====================================*/
+.footer_nav_container{
+	height: 130px;
+}
+
+.cr{/*Hace grande y mueve el "todos los derechos reservados"*/
+	margin-right: 48px;	
+
+}
+
+.footer_nav li{
+	display: inline-block;
+	margin-right: 45px;
+}
+
+.footer_nav li:last-child{
+	margin-right: 0px;
+}
+
+.footer_nav li a, .cr{
+	font-size: 14px;
+	color: #000000;
+	line-height: 30px;
+	transition: all 300ms ease;
+}
+
+.footer_nav li a:hover{
+	color: #ffffff;
+}
+
+/*======================================Index Inicio de sesion=====================================*/
+#login{
+	width: 30%;
+	margin: auto;
+}
+.log{
+	margin-top: 50px;
+}
+
+.form-group{
+	margin-top: 40px;
+}
+
+#ma{
+	font-size: 23px;
+}
+
+/*======================================Categorias=====================================*/
+.table{
+	width: 80%;
+	margin: auto;
+}

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es_MX">
+
+
+<head>
+	<title>MINI SUPER EL GÜERO</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Colo Shop Template">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- font Awesome Cdn -->
+	<script src="https://kit.fontawesome.com/e48d166edc.js" crossorigin="anonymous"></script>
+	
+	
+	<!--Icono de la pagina-->
+	<link rel="shortcut icon" href="img/cheve.png" type="image/x-icon">
+
+	<!-- Bootstrap cdn -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+		integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+	<!-- Owl Carousel File -->
+	<link rel="stylesheet" type="text/css" href="plugging/OwlCarousel2-2.2.1/owl.carousel.css">
+
+	<!-- CSS File -->
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+
+<body>
+	<main>
+		<div class="super_container">
+
+
+		<!-- Header -->
+		<header class="header trans_300">
+	
+				<!-- main Navigation -->
+	
+				<div class="main_nav_container">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12 text-right">
+								<!-- Titulo  -->
+								<div class="logo_container">
+	
+									<a href="#"><span>MINI SUPER</span> EL GÜERO</a>
+								</div>
+	
+								<!-- Creacion de menú  -->
+								<nav class="navbar">
+	
+									<u1 class="navbar_menu">
+										<li><a href="index.html">Inicio</a></li>
+										<li><a href="#">Productos</a></li>
+										<li><a href="contacto.html">Contacto</a></li>
+										<li><a href="faq.html">Preguntas Frecuentes</a></li>
+
+									</u1>
+									<!-- Iconos  -->
+									<u1 class="navbar_user">
+										<!--<li><a href="#"><i class="fa fa-search arial-hidden="true></i></a></li>-->
+										<!-- Icono de busqueda  -->
+										<!--<li><a href="#"><i class="fa fa-user arial-hidden="true></i></a></li>--->
+										<li class="checkout">
+											<a href="carrito.html">
+												<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+												<!-- Icono de bolsa de compra  -->
+												<span id="checkout_items" class="checkout_items">2</span>
+												<!-- Numero de articulos en la bolsa   -->
+											</a>
+										</li>
+									</u1>
+	
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+		</header>
+
+		<!--=================Menú Hamburguesa=============================-->
+		<nav role='navigation'>
+				<div id="menuToggle">
+				  
+				  <input type="checkbox" />
+				  
+				  <span></span>
+				  <span></span>
+				  <span></span>
+				  
+				  <ul id="menu">
+					<a id="btmMenu" class="menu_item" href="index.html"><li>Inicio</li></a>
+					<a id="btmMenu" class="menu_item" href="#"><li>Productos</li></a>
+					<a id="btmMenu" class="menu_item" href="contacto.html"><li>Contacto</li></a>
+				  </ul>
+				</div>
+		</nav>
+
+		<!--=================FAQ=============================-->
+		<h1 class="titulo">Preguntas Frecuentes</h1>
+		<div class="categorias" id="categorias">
+			<div class="categoria activa" data-categoria="agregar-carrito">
+				<img src="https://img.icons8.com/material-outlined/48/000000/fast-cart.png"/>
+				<p>Más productos a mi carrito</p>
+			</div>
+			<div class="categoria" data-categoria="entregas">
+				<img src="https://img.icons8.com/material-outlined/48/000000/delivery.png"/>
+				<p>Entregas a domicilio</p>
+			</div>
+			<div class="categoria" data-categoria="metodos-pago">
+				<img src="https://img.icons8.com/material-sharp/48/000000/cash-.png"/>
+				<p>Métodos de pago</p>
+			</div>
+			<div class="categoria" data-categoria="extra">
+				<img src="https://img.icons8.com/ios/50/000000/ask-question.png"/>
+				<p>Espacio Extra</p>
+			</div>
+		</div>
+
+		<div class="preguntas">
+
+			<!-- Preguntas agregar-carrito -->
+			<div class="contenedor-preguntas activo" data-categoria="agregar-carrito">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Cómo agrego más productos a mi carrito?<img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Para agregar correctamente más productos, es necesario hacerlo desde la sección de “carrito”, una vez ahí, en la columna de cantidad se agrega la cantidad deseada de productos.</p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Pregunta...? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Texto de prueba.</p>
+				</div>
+			</div>
+
+			<!-- Preguntas entregas -->
+			<div class="contenedor-preguntas" data-categoria="entregas">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Tienen entregas a domicilio? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">No, los pedidos se realizan desde la página web y se deberá pasar a la tienda por sus productos.</p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Porque no hacen entregas a domicilio? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Texto de prueba.</p>
+				</div>
+			</div>
+
+			<!-- Preguntas metodos-pago -->
+			<div class="contenedor-preguntas" data-categoria="metodos-pago">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Qué metodos de pago ofrecen? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Texto de prueba.</p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Pregunta...? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Texto de prueba.</p>
+				</div>
+			</div>
+
+			<!-- Preguntas extra2 -->
+			<div class="contenedor-preguntas" data-categoria="extra">
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Pregunta...? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Texto de prueba.</p>
+				</div>
+				<div class="contenedor-pregunta">
+					<p class="pregunta">¿Pregunta...? <img src="./img/suma.svg" alt="Abrir Respuesta" /></p>
+					<p class="respuesta">Texto de prueba.</p>
+				</div>
+			</div>
+		</div>
+	</main>
+
+
+<!-- Newsletter -->
+<div class="newsletter">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="newsletter_text d-flex flex-column justify-content-center
+				align-items-lg-start align-items-md-center text-center">
+					<h4>Noticias</h4>
+					<p>Enterate primero que nadie de ofertas, novedades y mas</p>
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<form action="post">
+					<div class="newsletter_form d-flex flex-md-row flex-column flex-xs-column 
+					align-items-center justify-content-lg-end justify-content-center">
+					<input id="newsletter_email" type="email" placeholder="Correo electronico" required="required"
+					data-error="valid email is required.">
+					<button id="newsletter_submit" type="submit" class="newsletter_submit_btn trans_300"
+					value="submit">Suscribete</button>
+					</div>
+				</form>
+			</div>
+
+
+		</div>	
+	</div>   
+</div>
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="footer_nav_container d-flex flex-sm-row flex-column 
+					align-items-center justify-content-lg-start justify-content-center text-center">
+						<ul class="footer_nav">
+							<li><a href="index.html">Inicio</a></li>
+							<li><a href="#">Productos</a></li>
+							<li><a href="contacto.html">Contacto</a></li>
+							<li><a href="https://goo.gl/maps/v9oqZ5vaFC1a9Vz16" target="_blank">Ubicacion</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="footer_social d-flex flex-row align-items-center justify-content-lg-end
+						justify-content-center">
+						<ul>
+							<li><a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-telegram" aria-hidden="true"></i></a></li>
+							<li><a href="#"><i class="fa fa-spotify" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="footer_nav-container">
+						<div class="cr">Todos los derechos deservados 2021 &copy;</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</footer>
+
+</div>
+	<!-- jquery JS File -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<!-- Bootstrap JS CDN -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+		integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+		crossorigin="anonymous"></script>
+	<!-- Isotope JS File -->
+	<script src="plugging/Isotope/isotope.pkgd.min.js"></script>
+	<!-- Owl Carousel JS File -->
+	<script src="plugging/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+	<!-- Javascript File -->
+	<script src="js/script.js"></script>
+
+	<script src="js/categorias.js"></script>
+	<script src="js/preguntasFrecuentes.js"></script>
+</body>
+</html>
